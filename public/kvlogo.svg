@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" width="350" height="267">
+	<title>New Project</title>
+	<defs>
+		<image  width="166" height="270" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKYAAAEOBAMAAADxnnFzAAAAAXNSR0IB2cksfwAAAB5QTFRF////////////////////////////////////////FdjMUgAAAAp0Uk5TABCvz/8gMO8mDsWuBYwAAASgSURBVHicrdvLrR1FFIXhrgljYyeAIAKbOVEQAhIz0iAAIiEAQkCQgCUCAOEM7NPvqup6rL3WOrOrln590mn1qdpdNy3l582nRf6k6s9vP9qbbz/8+7e5mb775vMf5ubbD8uiQ4vmi7ksOrRorkwDNG9uTAM0b+5MHZo1D6YOzZonU4bezYspQ+/mzVShVzNjqtCrmTNF6NksmCL0bJZMDXo0K6YGPZo1U4LuzQdTgu7NJ1OBbs0GU4FuzRZTgK7NJlOArs02k4emLpOHpj6ThqY+k4amAZOFpgGThaYRk4SmH4eLQwqavvpheJ2BpuWnf0bXGWha/NDXPW+Hvpp26PoMcUPXphu6PZPN0K1phu6/cV7o3vRCjzWDFXo0rdBzDeaEnk0n9FrTGqFX0wi99wg+6N30QbM9lw2aNW3QfA/rguZNF7SYCZigRdMELWcsHmjZ9ECrmZUFWjUt0KppgdZNB7RuOqCPpgH6aBqgz6YOfTZ1aKMpQxtNGdpqqtBWU4U2myK02RSh7aYGbTc1aKcpQTtNCdprKtBeU4F2mwK02xSg/SYP7Td56KBJQwdNGjpqstBRk4UOmyR02CSh4yYHHTc56KRJQSdNCjprMtBZk4FOmwR02iSg82YcOm/GoUAzDAWaYSjSjEKRZhQKNYNQqBmEYs0YFGvGoGAzBAWbISjajEDRZgQKNwNQuBmA4k0cijdxaKAJQwNNGBppotBIE4WGmiA01AShsSYGjTUxaLAJQYNNCBptItBoE4GGmwA03ASg8eYcGm/OoURzCiWaUyjTnEGp5i/D0dp/TPPn4Xnjz38y39GE+RfRnDE/Eff8jEncn1Mm8QyZMuPNOTP+TJ4zw02AGf6NA5jRJsKMrhkQZrAJMYNrMIgZa2LM2JoWY4aaIDO0RwCZkSbKjOy5UGagCTMDe1iYiTdxJj4TwJlwM8CEZywBJtqMMNGZVYQJNkNMcAYYYmLNGBObqcaYUDPIhGbUQSbSjDKRmX+UCTTDTOAdSpg5b8aZ83dScea0STCn7/gI5qzJMGfvTBnmpEkxJ++gKea4yTHH7/Q55rBJModnJEjmqMkyR2dOWOagSTMHZ3hoZr/JM/tnonhmtykwu2fMBGavqTB7Z/YUZqcpMTtnICVmu6kx22dKNWazKTKbZ3RFZqupMhtNmdloysxnU2c+mzrz0TQwH00Ds246mHXTwayaFmbVtDDLpodZNj3MomliFk0TM2+6mHnTxcyaNmbWtDHvpo95N33Mq2lkXk0j82w6mWfTyTyaVubRtDL3ppe5N73MrWlmbk0zc226mWvTzXw17cxX085ckp+5pF+H/57EMJf02++jywxzSen7N/2rFPP1Hb17379KMV/NAZRjrvd8H8ox12YXSjK3Z0gPSjK3ZgfKMvdnchvKMvdmE0ozj9+4FpRmHs0GlGeea4YnlGeezQdUYF5rsBoqMK9mBVWY95q2hCrMu1lAJWa2R8ihEjNrZlCNme+5bqjGzJsXVGQWe9gTKjKL5gFVmeVMYIeqzLK5QWVmNWNZoTKzar6gOrOeWb17rzPrZvrwUWY+ZoBf/y8nly8Az/aeQr8HmAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #ffffff } 
+		.t1 { font-size: 200px;fill: #ffffff;font-weight: 400;font-family: "MajorSnafu", "Major Snafu" } 
+	</style>
+	<use id="Shape 1 copy" href="#img1" x="591" y="204"/>
+	<path id="Shape 1" class="s0" d="m539 204.6l134.4 134.4-134.4 134.4-134.4-134.4z"/>
+	<text id="KV" style="transform: matrix(1,0,0,1,452,622)" >
+		<tspan x="0" y="0" class="t1">K</tspan><tspan  y="0" class="t1">V
+</tspan>
+	</text>
+</svg>
