@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import KVLogo from '../../public/kvlogo.svg?react'
+import KVLogo from '../components/logo/kvlogo.svg?react'
 
 const headerLinks = [
   {
@@ -8,7 +8,7 @@ const headerLinks = [
   },
   {
     title:"contacts",
-    href: "/hehe",
+    href: "/aboutme",
   }
 ]
 

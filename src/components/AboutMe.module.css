@@ -1,0 +1,30 @@
+.main{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    left: 0%;
+}
+
+.picture {
+    margin-left: 10px;
+    position: absolute;
+    left: 10%;
+    width:250px;
+    height:250px;
+    background-color:white;
+     transform:rotate(45deg)
+}
+
+.button {
+    margin-left: 20px;
+    margin-top: 250px;
+        position: absolute;
+        left: 10%;
+        width:220px;
+      height:61px;
+      border-radius:30px;
+      color:black;
+      background-color:#44DDC0
+}
