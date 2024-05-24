@@ -9,27 +9,16 @@ const handleClick = () => {
 function AboutMe () {
   return <>
   <div className={style.main}>
-    <div>
+    <div className={style.pictureandbutton}>
     <div className={style.picture}>
     </div>
-    <div style={{
-      marginTop:60,
-    }}>
-    <button className={style.button} onClick={handleClick} style={{
-    //   width:220,
-    //   height:61,
-    //   borderRadius:30,
-    //   color:"black",
-    //   backgroundColor:"#44DDC0"
-    }}>DOWNLOAD CV</button>
-    </div>
+    <button className={style.button} onClick={handleClick}>DOWNLOAD CV</button>
   </div>
-  <div>
-    <p style={{
-      fontFamily:"Inter",fontWeight:"lighter",fontSize:"20px"
-    }}>Hello, my name is Kristijan.</p>
+  <div className={style.allText}>
+  <div >
+    <p >Hello, my name is Kristijan.</p>
   </div>
-  <div>
+  <div className={style.animation}>
 
   <Animation
       sequence={[
@@ -44,9 +33,15 @@ function AboutMe () {
         ]}
         wrapper="span"
         speed={10}
-        style={{ fontSize: '2em', display:"flex", color:"#44DDC0", position:"absolute", transform:"translateX(-50%)"}}
+        style={{ fontSize: '2em', color:"#44DDC0",}}
         repeat={0}
         />
+        </div>
+        <div className={style.text}>
+            <p>
+            I recently completed a front-end development course at Algebra, where I  gained foundational knowledge in HTML, CSS, and JavaScript, as well as  experience with modern frameworks like React 
+            </p>
+        </div>
         </div>
         </div> 
   </> 

@@ -1,16 +1,23 @@
-.main{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    left: 0%;
+.main {
+    position: relative;
+    margin-top: 15rem;
+    display: inline-flex;
 }
 
+
+
+.pictureandbutton {
+    left: -30%;
+    width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .picture {
-    margin-left: 10px;
-    position: absolute;
-    left: 10%;
     width:250px;
     height:250px;
     background-color:white;
@@ -18,13 +25,26 @@
 }
 
 .button {
-    margin-left: 20px;
-    margin-top: 250px;
-        position: absolute;
-        left: 10%;
-        width:220px;
+    margin-top: 4rem;
+      width:11.5em;
       height:61px;
       border-radius:30px;
       color:black;
       background-color:#44DDC0
 }
+
+.text {
+    margin-left: 40%;
+    width: 400px;
+}
+
+.allText {
+    display: flex;
+    flex-direction: column;
+}
+
+ .animation {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
