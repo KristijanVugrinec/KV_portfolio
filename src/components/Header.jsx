@@ -17,23 +17,22 @@ return (
   <>
   <header
      style={{
-    //     color: "white",
-    //     fontSize: 24,
-         position: "fixed",
-         top: 50,
-         left: 0,
+        marginLeft:"2rem",
+       color: "white",
+        fontSize: 24,
+         position: "relative",
          width: "100%",
          display: "flex",
-    //     flexWrap: "wrap",
-    //     gap: 34,
+        flexWrap: "wrap",
+        gap: 34,
          justifyContent: "center",
          alignItems: "center",
-    //     padding: 10,
+        padding: 10,
      }}
-    ><div style={{ position: "absolute", left: "50%", transform: "translateX(-50%)" }}>
+    ><div>
     <KVLogo />
     </div>
-    <div style={{position: "absolute", right: "90px", display: "flex", backgroundColor: "transparent"}}>
+    <div style={{backgroundColor: "transparent"}}>
     {headerLinks.map((link) => {
         const { title, href } = link;
         return (
