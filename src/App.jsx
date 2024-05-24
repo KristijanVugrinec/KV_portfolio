@@ -4,6 +4,7 @@ import './App.css'
 import { Canvas } from '@react-three/fiber'
 import { Experience } from './components/Experience'
 import SkillsText from './components/Skills'
+import Icons from './components/Icons'
 
 function App() {
 return (
@@ -22,7 +23,7 @@ return (
     endIndex={5}
     highlightStyle={{color: '#44DDC0'}} />
   </div> 
-
+  <Icons />
 </>
 )
 }
