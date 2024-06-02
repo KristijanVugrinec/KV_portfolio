@@ -2,6 +2,7 @@ import { OrbitControls, ScrollControls } from "@react-three/drei"
 import { Cube } from "./Cube"
 import { extend } from "react-three-fiber"
 
+
 export const Experience = () => {
     return (
         <>
@@ -16,7 +17,7 @@ export const Experience = () => {
 />
 
 {/* Point lights with higher intensities */}
-<pointLight position={[-5, 5, 5]} intensity={1} />
+ <pointLight position={[-5, 5, 5]} intensity={1} />
 <pointLight position={[5, -5, 5]} intensity={1} />
 <pointLight position={[5, 5, -5]} intensity={1} />
 <pointLight position={[-5, -1, -2]} intensity={1} />
@@ -33,7 +34,7 @@ export const Experience = () => {
 />
         <OrbitControls enableZoom={false} />
         {/* <ScrollControls pages={3} damping={0.25} > */}
-        <Cube />
+        <Cube/>
         {/* </ScrollControls> */}
   </>
     )

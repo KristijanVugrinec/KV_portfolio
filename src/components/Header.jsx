@@ -3,11 +3,11 @@ import KVLogo from '../components/logo/kvlogo.svg?react'
 
 const headerLinks = [
   {
-    title:"about",
+    title:"HOME",
     href: "/",
   },
   {
-    title:"contacts",
+    title:"CONTACTS",
     href: "/aboutme",
   }
 ]
@@ -19,7 +19,7 @@ return (
      style={{
         marginLeft:"2rem",
        color: "white",
-        fontSize: 24,
+        fontSize: 15,
          position: "relative",
          width: "100%",
          display: "flex",
@@ -44,7 +44,7 @@ return (
                 backgroundColor: "transparent",
                 marginLeft: 50,
                 fontWeight: "normal",
-                fontSize: 24,
+                fontSize: 15,
             }}
             >
           {title}
