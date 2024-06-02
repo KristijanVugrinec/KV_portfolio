@@ -21,7 +21,7 @@
     width:250px;
     height:250px;
     background-color:white;
-     transform:rotate(45deg)
+    transform:rotate(45deg)
 }
 
 .button {
@@ -33,12 +33,23 @@
       background-color:#44DDC0
 }
 
+.name {
+    font-size: 2em;
+}
+
+
 .text {
+    font-weight: bold;
+    font-family: Inter;
+    color: black;
+    background-color: #44ddc1;
+    border-radius: 20px;
     margin-left: 40%;
     width: 400px;
 }
 
 .allText {
+    font-weight: bold;
     display: flex;
     flex-direction: column;
 }
@@ -47,4 +58,15 @@
     margin-left: 3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+ }
+
+ .socialmedia {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+ }
+
+ .glow:hover {
+    transform: scale(2);
  }
