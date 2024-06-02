@@ -1,15 +1,24 @@
+import React from 'react'
 import PropTypes from 'prop-types'
+import { useInView } from 'react-intersection-observer'
+import style from "./Skills.module.css"
 
 
 const SkillsText = ({text,startIndex,endIndex,highlightStyle}) => {
+  const { ref, inView,  } = useInView({
+    threshold: 0,
+    triggerOnce:true,
+  })
     return <>
-        <p style={{ fontSize: '10em', letterSpacing: '0.6em',fontWeight:'bold' }}>
+    <div ref={ref}>
+        <p className={`${style.paragraph} ${inView ? style.visible : style.hidden}`}>
       {text.substring(0, startIndex)}
       <span style={highlightStyle}>
         {text.substring(startIndex, endIndex)}
       </span>
       {text.substring(endIndex)}
     </p>
+    </div>
     </>
 }
 
