@@ -1,0 +1,31 @@
+.main {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 1500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 8em;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    color: #44DDC0;
+}
+
+.box {
+    border:1px solid #44DDC0;
+    border-radius: 10px;
+    top: -60px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.178);
+    width: 80%;
+    height: 80%;
+}
+
+.text{
+    font-size: 2em;
+    color: rgba(255, 255, 255, 0.322);
+}
