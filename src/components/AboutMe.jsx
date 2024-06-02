@@ -43,7 +43,7 @@ function AboutMe () {
       {socialMedia.map((linkovi) => {
         const {link,svgElement:Icon,id} = linkovi;
         return (
-          <a key={id} href={link}>
+          <a key={id} href={link} target="_blank">
             <Icon className={style.glow} />
           </a>
         )
