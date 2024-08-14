@@ -13,7 +13,29 @@
     letter-spacing: 0.2em;
     font-weight: bold;
     color: #44DDC0;
+    opacity: 0;
+    transform:translateY(30px);
+    transition: 3s ease-out, transform 3s ease-out;
 }
+
+@media only screen and (max-width: 768px) {
+    .title {
+      font-size: 2em;
+      letter-spacing: 0.2em;
+    font-weight: bold;
+    }
+    .main{
+        display: flex;
+        flex-direction: column ;
+        width: 100%;
+        height: 400px;
+        margin-top: 0;
+    }
+
+    .projectsText{
+      margin-bottom: 2rem;
+    }
+  }
 
 .box {
     border:1px solid #44DDC0;
@@ -23,9 +45,32 @@
     background-color: rgba(0, 0, 0, 0.178);
     width: 80%;
     height: 80%;
+    opacity: 0;
+    transform:translateY(30px);
+    transition: 3s ease-out, transform 3s ease-out
 }
 
 .text{
     font-size: 2em;
     color: rgba(255, 255, 255, 0.322);
 }
+
+.title.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .title.hidden {
+    opacity: 0;
+    transform: translateY(70px);
+  }
+
+  .box.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .box.hidden {
+    opacity: 0;
+    transform: translateY(70px);
+  }

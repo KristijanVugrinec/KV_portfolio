@@ -4,10 +4,19 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import Picture from "../components/logo/portfolio.png" 
+import CV from "./cv/CV.pdf"
 
 const handleClick = () => {
     console.log("Button Clicked")
-}
+    const cvurl = CV
+    const link = document.createElement("a")
+  link.href = cvurl
+  link.download = "KristijanV.pdf"
+  document.body.appendChild(link)
+  link.click();
+  document.body.removeChild(link);
+  }
 
 const socialMedia = [
   {
@@ -37,6 +46,7 @@ function AboutMe () {
   <div className={style.main}>
     <div className={style.pictureandbutton}>
     <div className={style.picture}>
+      <img src={Picture} className={style.logoPicture} />
     </div>
     <button className={style.button} onClick={handleClick}>DOWNLOAD CV</button>
     <div className={style.socialmedia}>

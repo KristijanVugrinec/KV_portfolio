@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import KVLogo from '../components/logo/kvlogo.svg?react'
+import style from "./Header.module.css"
 
 const headerLinks = [
   {
@@ -7,29 +8,16 @@ const headerLinks = [
     href: "/",
   },
   {
-    title:"CONTACTS",
-    href: "/aboutme",
+    title:"CONTACT ME",
+    href: "/contact",
   }
 ]
 
 function Header() {
 return (
   <>
-  <header
-     style={{
-        marginLeft:"2rem",
-       color: "white",
-        fontSize: 15,
-         position: "relative",
-         width: "100%",
-         display: "flex",
-        flexWrap: "wrap",
-        gap: 34,
-         justifyContent: "center",
-         alignItems: "center",
-        padding: 10,
-     }}
-    ><div>
+  <header className={style.headerstyle} >
+    <div>
     <KVLogo />
     </div>
     <div style={{backgroundColor: "transparent"}}>

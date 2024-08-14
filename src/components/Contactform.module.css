@@ -1,0 +1,103 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .main{
+        width: 100%;
+        justify-content: center;
+    }
+    .field{
+        width: 80% !important;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .fullname{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .button {
+        color: white;
+    }
+
+    .fullName{
+        display: none;
+    }
+}
+
+.field {
+    text-align: left;
+    width: 400px;
+    height: 500px;
+}
+
+.user {
+    display: block;
+    background-color:white;
+    width: 300px;
+    color: black;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.textarea{
+    display: block;
+    height: 100px;
+    width: 300px;
+    resize: none;
+    margin-bottom: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.fullname {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.name{
+    margin-right: 5px;
+}
+
+.reddot::after {
+    content: "*";
+    color: red;
+}
+
+.nametext {
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.surnametext {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.buttondiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 1px #44ddc1;
+}
+
+.button:hover {
+    background-color: #44ddc1;
+    color: black;
+}

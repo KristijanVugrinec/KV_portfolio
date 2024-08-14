@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer'
 import style from "./Skills.module.css"
 
 
-const SkillsText = ({text,startIndex,endIndex,highlightStyle}) => {
+const SkillsText = ({text,startIndex,endIndex,highlightStyle = {color:'#44DDC0'}}) => {
   const { ref, inView,  } = useInView({
     threshold: 0,
     triggerOnce:true,
@@ -30,8 +30,8 @@ endIndex: PropTypes.number,
 highlightStyle: PropTypes.object
 }
 
-SkillsText.defaultProps = {
-    highlightStyle: {color: '#44DDC0'}
-}
+// SkillsText.defaultProps = {
+//     highlightStyle: {color: '#44DDC0'}
+// }
 
 export default SkillsText
