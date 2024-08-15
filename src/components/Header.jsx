@@ -30,7 +30,6 @@ return (
             title={title}
             style={{
                 backgroundColor: "transparent",
-                marginLeft: 50,
                 fontWeight: "normal",
                 fontSize: 15,
             }}
