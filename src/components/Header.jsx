@@ -21,7 +21,7 @@ return (
     <KVLogo />
     </div>
     <div style={{backgroundColor: "transparent"}}>
-    {headerLinks.map((link) => {
+    {headerLinks.map((link, index) => {
         const { title, href } = link;
         return (
             <Link
@@ -29,6 +29,7 @@ return (
             to={href}
             title={title}
             className={style.linkstyle}
+            style={index === 0 ? {marginLeft:0} : {} }
             >
           {title}
         </Link>
