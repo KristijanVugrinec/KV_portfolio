@@ -25,7 +25,7 @@
     }
 
     .logoPicture {
-        height: 200px !important;
+        height: 250px !important;
     }
     .allText{
         margin-left:0%;
@@ -59,11 +59,12 @@
     background-color:white;
     transform:rotate(45deg);
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logoPicture {
-    padding-left: 30px;
-    height: 350px;
     transform: rotate(-45deg);
 }
 

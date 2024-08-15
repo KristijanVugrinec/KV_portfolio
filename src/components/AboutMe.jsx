@@ -26,7 +26,7 @@ const socialMedia = [
   },
   {
     id:2,
-    link:"https://github.com/KristijanVugrinec",
+    link:"https://www.linkedin.com/in/kristijan-vugrinec-6ba614323/",
     svgElement:FaLinkedin,
   },
   {
@@ -77,7 +77,7 @@ function AboutMe () {
            // wait 1s before replacing "Mice" with "Hamsters"
         ]}
         wrapper="span"
-        speed={10}
+        speed={{type: 'keyStrokeDelayInMs', value: 500}}
         style={{ fontSize: '2em', color:"#44DDC0",}}
         repeat={1}
         />

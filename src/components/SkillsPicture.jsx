@@ -32,7 +32,7 @@ function SkillsPicture () {
                 }
                 return prevIndex + 1
             })
-            setTransition('visible')},2000)
+            setTransition('visible')},1500)
         }, [gallery.length]);
         
         const prevImage =  useCallback (() => {
@@ -44,7 +44,7 @@ function SkillsPicture () {
                 }
                 return prevIndex - 1
             })
-            setTransition('visible')},2000)
+            setTransition('visible')},1500)
         },[gallery.length]);
 
 
