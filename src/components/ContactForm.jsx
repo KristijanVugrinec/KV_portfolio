@@ -1,9 +1,11 @@
 import style from "./Contactform.module.css"
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
+import { useNavigate } from "react-router-dom";
 
 function ContactForm() {
-    const form = useRef();
+  const form = useRef();
+  const navigate = useNavigate()
   const [formState, setFormState] = useState({
     name: "",
     surname: "",
@@ -81,14 +83,16 @@ function ContactForm() {
            from_phone: formState.phone,
            message: formState.text,
        }
+
+
        emailjs.send(serviceId,templateId,templateParams,publicKey)
        .then((response) => {
-           console.log('Email sent successfully!',response);
+          //  console.log('Email sent successfully!',response);
            alert('Uspjesno poslano!');
-           window.location.reload()
+           navigate('/contact')
        })
        .catch((error) => {
-           console.log('Error sending email:',error)
+          //  console.log('Error sending email:',error)
        })
     } 
 
