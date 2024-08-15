@@ -28,11 +28,7 @@ return (
             key={href}
             to={href}
             title={title}
-            style={{
-                backgroundColor: "transparent",
-                fontWeight: "normal",
-                fontSize: 15,
-            }}
+            className={style.linkstyle}
             >
           {title}
         </Link>
