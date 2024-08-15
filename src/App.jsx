@@ -7,6 +7,7 @@ import SkillsText from './components/Skills'
 import Icons from './components/Icons'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Welcome from './components/Welcome'
 
 function App() {
 return (
@@ -17,6 +18,7 @@ return (
   </Canvas>
   </div>  */}
   <Header/>
+  <Welcome />
   <AboutMe /> 
   <div id="skills" style={{position:"relative",marginTop:"15rem"}}>
     <SkillsText
