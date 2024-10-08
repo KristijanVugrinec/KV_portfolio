@@ -1,0 +1,14 @@
+.timelinemain {
+    margin-top: 50px;
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line {
+    width: 1px;
+    height: 100px;
+    border-right: 10px solid #44ddc1;
+}
