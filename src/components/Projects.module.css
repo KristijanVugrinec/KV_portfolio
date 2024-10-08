@@ -2,7 +2,7 @@
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    /* height: 1000px; */
     width: 1500px;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
         display: flex;
         flex-direction: column ;
         width: 100%;
-        height: 400px;
+        /* height: 400px; */
         margin-top: 0;
         justify-content: center;
     }
@@ -44,29 +44,36 @@
     }
 
     .weatherApp {
-      width: 200px !important;
+      /* width: 200px !important; */
       height: auto !important;
       margin: 0 !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px !important;
     }
 
     .weatherAppPicture {
       width: 200px !important;
-      height: 100px !important;
+      height: 200px !important;
+      margin-right: 0px !important;
     }
   }
 
 .box {
-    border:1px solid #44DDC0;
+    /* border:1px solid #44DDC0; */
     border-radius: 10px;
     top: -60px;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.178);
+    /* background-color: rgba(0, 0, 0, 0.178); */
     width: 80%;
     height: 80%;
     opacity: 0;
     transform:translateY(30px);
     transition: 3s ease-out, transform 3s ease-out;
     display: flex;
+    flex-direction: column;
 }
 
 .text{
@@ -95,20 +102,75 @@
   }
 
   .weatherApp {
-    margin: 5% 0 0 5%;
-    width: 300px;
-    height: 350px;
-    border:1px solid #44DDC0;
-    border-radius: 20px;
+    /* margin: 5% 0 0 5%; */
+    /* width: 1500px; */
+    /* height: 350px; */
+    /* border-radius: 20px; */
+    display: flex;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
   }
 
+  /* .weatherApp p:first-child {
+    font-size: 32px;
+  } */
+
   .weatherAppPicture {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 450px;
     border-radius: 20px;
+    margin-right: 200px;
+  }
+
+  .weatherAppPicture:hover {
+    transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
   }
 
   .description {
     display: flex;
     flex-direction: column;
+    width: 350px;
+  }
+
+  .appName a{
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+  }
+
+  .languages {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .languagesp{
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px ;
+  }
+
+  .languagesp:hover {
+    border: 2px dashed #44ddc1;
+  }
+
+  .projectName {
+    color: #44ddc1;
+    font-size: 32px;
+    text-shadow: none;
+    transition: text-shadow 0.5s ease;
+  }
+
+
+  .projectName:hover {
+    color:#44ddc1;
+    text-shadow: 0 0 10px #44ddc1, 0 0 20px #44ddc1, 0 0 30px #44ddc1, 0 0 40px #44ddc1, 0 0 50px #44ddc1;
+  }
+
+  .projectInfo {
+    font-size: 16px;
+    font-weight: lighter;
   }
