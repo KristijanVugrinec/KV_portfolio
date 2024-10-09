@@ -8,6 +8,7 @@ import Icons from './components/Icons'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Welcome from './components/Welcome'
+import Timeline from './components/Timeline'
 
 function App() {
 return (
@@ -20,6 +21,7 @@ return (
   <Header/>
   <Welcome />
   <AboutMe /> 
+  <Timeline />
   <div id="skills" style={{position:"relative",marginTop:"15rem"}}>
     <SkillsText
     text="SKILLS"
