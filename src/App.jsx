@@ -22,7 +22,7 @@ return (
   <Welcome />
   <AboutMe /> 
   <Timeline />
-  <div id="skills" style={{position:"relative",marginTop:"15rem"}}>
+  <div id="skills" style={{position:"relative"}}>
     <SkillsText
     text="SKILLS"
     startIndex={3}

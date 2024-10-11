@@ -1,9 +1,53 @@
+@media only screen and (max-width: 768px) {
+
+    .title {
+      font-size: 3em !important;
+      font-weight: bold;
+    }
+
+   .learning {
+    width: 300px !important;
+   } 
+
+   .finished {
+    width: 300px !important;
+   }
+
+   .firstYear{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .secondYear {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .finished {
+    order: -1;
+   }
+
+   .firstYearText {
+    width: 300px !important;
+   }
+
+   .secondYearText {
+    width: 300px !important;
+   }
+}
+
+
+
+
+
 .main {
     margin-top: 10rem;
 }
 
 .title {
     font-size: 8em;
+    color: #44ddc1;
+    font-weight: bold;
 }
 
 .firstYear {
@@ -11,6 +55,47 @@
     justify-content: space-around;
     margin-top: 100px;
     align-items: center;
+}
+
+.mainTitleFirstYear {
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 0;
+  color:#44ddc1 ;
+  opacity: 0;
+  transform: translateX(0);
+  transition: 2s ease-out,transform 2s ease-out
+}
+
+.mainTitleFirstYear.visible{
+opacity: 1;
+transform: translateX(0);
+}
+
+.mainTitleFirstYear.hidden {
+opacity: 0;
+transform: translateX(70px);
+}
+
+
+.descriptionFirstYear {
+  font-weight: bold;
+  font-style: italic;
+  opacity: 0;
+  transform: translateX(0);
+  transition: 2s ease-out,transform 2s ease-out;
+}
+
+.descriptionFirstYear.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+
+
+.descriptionFirstYear.hidden {
+  opacity: 0;
+  transform: translateX(200px);
 }
 
 .secondYear {
@@ -27,6 +112,48 @@
 .firstYearText {
     width: 500px;
 }
+
+.mainTitleSecondYear {
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 0;
+  color:#44ddc1 ;
+  /* opacity: 0; */
+  transform: translateX(0);
+  transition: 2s ease-out,transform 2s ease-out
+}
+
+.mainTitleSecondYear.visible{
+  opacity: 1;
+  transform: translateX(0);
+  }
+  
+  .mainTitleSecondYear.hidden {
+  opacity: 0;
+  transform: translateX(-70px);
+  }
+
+  .descriptionSecondYear {
+    font-weight: bold;
+    font-style: italic;
+    /* opacity: 0; */
+    transform: translateX(0);
+    transition: 2s ease-out,transform 2s ease-out;
+  }
+
+
+  .descriptionSecondYear.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  
+  
+  .descriptionSecondYear.hidden {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+
 
 
 .learning {
