@@ -5,6 +5,7 @@ import weatherApp from './projects/WeatherApp.png'
 import monitorWeatherApp from './projects/MonitorWeatherApp.png'
 import monitorQuizApp from './projects/MonitorMovieQuiz.png'
 import blackJackApp from './projects/BlackJack.png'
+import burgerHouseLandingPage from './projects/BurgerHouseLandingPage.png'
 
 
 function Projects () {
@@ -57,6 +58,20 @@ function Projects () {
             link: "https://aceof21.netlify.app/",
             title: "BLACKJACK GAME",
             description: "Play the classic Blackjack game. Hit, stand, and try to reach 21 without busting in this sleek, interactive card game." ,
+            language:[
+                {
+                    first: "Html",
+                    second:"JavaScript",
+                    third:"React"
+                }
+            ]
+        },
+        {   
+            index:4,
+            image: burgerHouseLandingPage,
+            link: "error",
+            title: "BURGER HOUSE",
+            description: "A burger restaurant concept currently under development...!" ,
             language:[
                 {
                     first: "Html",
